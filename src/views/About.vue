@@ -1,5 +1,17 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <img alt="Vue logo" src="../assets/logo.png">
+    <Titulo texto="Bienvenidos a About" />
   </div>
 </template>
+<script>
+// @ is an alias to /src
+import Titulo from '../components/Titulo'
+
+export default {
+  name: 'About',
+  components: {
+    Titulo
+  }
+}
+</script>
